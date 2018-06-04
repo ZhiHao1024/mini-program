@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/des/index",
+    "pages/find/index",
+    "pages/mine/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarTitleText": "春秋旅游",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00be88",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath":"/image/ic_home.png",
+        "selectedIconPath":"/image/ic_press_home.png"
+      },
+      {
+        "pagePath": "pages/des/index",
+        "text": "目的地",
+        "iconPath": "/image/ic_des.png",
+        "selectedIconPath": "/image/ic_des_press.png"
+      },
+      {
+        "pagePath": "pages/find/index",
+        "text": "发现",
+        "iconPath": "/image/ic_find.png",
+        "selectedIconPath": "/image/ic_find_press.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "/image/ic_mine.png",
+        "selectedIconPath": "/image/ic_mine_press.png"
+      }
+    ],
+    "color":"#7A7D84",
+    "selectedColor":"#00be88",
+    "backgroudColor":"white",
+    "borderStyle":"black",
+    "position":"bottom"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

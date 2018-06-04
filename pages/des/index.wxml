@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <calendar id="calendar" />
+  <button type="primary" bindtap="showCalendar">ClickMe!</button>
+</view>
